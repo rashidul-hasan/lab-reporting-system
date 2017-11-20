@@ -1,0 +1,40 @@
+{
+   "fields": [
+        {
+            "name": "name_english",
+            "type": "string"
+        },
+        {
+            "name": "name_bangla",
+            "type": "string"
+        },
+		{
+            "name": "nick_english",
+            "type": "string"
+        },
+		{
+            "name": "nick_bangla",
+            "type": "string"
+        },
+		
+		
+		{
+            "name": "dob",
+            "type": "date"
+        },
+        {
+            "name": "gender",
+            "type": "enum",
+			"options": ["Male", "Female", "Others"]
+        },
+		{
+            "name": "religion",
+            "type": "string"
+        },
+		{
+            "name": "nationality",
+            "type": "string"
+        },
+       
+   ]
+}

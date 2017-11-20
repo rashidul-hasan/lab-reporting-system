@@ -1,0 +1,60 @@
+      <!-- info row -->
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-xs-6">
+          <address>
+            <p><strong>Patient Details</strong></p>
+            <p>Patient Name: {{ $patient['name'] }}</p>
+            <p>Gender: {{ ucwords($patient['gender']) }}</p>
+            <p>Age: {{ $patient['age'] }}</p>
+            <p>Patient ID: {{ $patient['id'] }}</p>
+          </address>
+        </div>
+        <!-- /.col -->
+        <div class="col-md-6 col-lg-6 col-xs-6">
+          <address>
+            <p><strong>Test Details</strong></p>
+            <p>Test Name: {{ $test['name'] }}</p>
+            <p>Test Code: {{ $test['name'] }}</p>
+            <p>Sample ID: {{ $sample['id'] }}</p>
+            <p>Report ID: {{ $report['id'] }}</p>
+          </address>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Table row -->
+      <div class="row">
+        <div class="col-xs-12 table-responsive">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Normal</th>
+            </tr>
+            </thead>
+            <tbody>
+                      @foreach($results as $result)
+                        <tr>
+                          <td>{{$result->name}}</td>
+                          <td>{{$result->quantity}}</td>
+                          <td>{{$result->unit}}</td>
+                          <td>{{$result->normal}}</td>
+                        </tr>
+                        @endforeach
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- /.row -->
+
+
+     <div class="row">
+        <div class="col-xs-12">
+          <h4>Remarks:</h4>
+          <p>{{ $report['remarks'] }}</p>
+        </div>
+        <!-- /.col -->
+      </div>
