@@ -44,3 +44,21 @@ This was my final year project at AUST. Built with Laravel 5.3.
 1. Customer registration with auto generated password emailed to patient
 1. Email notification to patient after test report is generated
 
+
+## Screenshots
+
+![Login](https://i.imgur.com/WKHu1gR.png)
+
+![Imgur](https://i.imgur.com/JjaXi46.png)
+
+![Imgur](https://i.imgur.com/KKMfso0.png)
+
+![Imgur](https://i.imgur.com/FLI9zwP.png)
+
+![Imgur](https://i.imgur.com/8OoYGGJ.png)
+
+![Imgur](https://i.imgur.com/kn7nHTG.png)
+
+![Imgur](https://i.imgur.com/4mQ0HMn.png)
+
+![Imgur](https://i.imgur.com/GQAcgve.png)
